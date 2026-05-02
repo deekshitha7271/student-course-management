@@ -1,0 +1,17 @@
+target/
+*.class
+.mvn/
+mvnw
+mvnw.cmd
+.settings/
+.project
+.classpath
+.factorypath
+.idea/
+*.iml
+*.iws
+.DS_Store
+.gemini/
+implementation_plan.md
+task.md
+walkthrough.md

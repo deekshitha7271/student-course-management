@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #2980b9;
+    transition: 0.3s;
+}
+
+.btn:hover {background-color: #2980b9}
+
+.btn:active {
+    background-color: #2980b9;
+    box-shadow: 0 2px #2980b9;
+    transform: translateY(2px);
+}
+
+.btn-secondary {
+    background-color: #95a5a6;
+    box-shadow: 0 4px #7f8c8d;
+}
+
+.btn-secondary:hover {background-color: #7f8c8d}
+
+form {
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.nav {
+    margin-bottom: 30px;
+}
+
+.nav a {
+    margin-right: 15px;
+}
+
+.error-box {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    max-width: 300px;
+}
